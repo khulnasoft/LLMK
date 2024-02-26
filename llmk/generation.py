@@ -6,7 +6,7 @@ from llmk.tokenizer import Tokenizer
 from llmk.model import Transformer
 
 
-class LLMK:
+class LlMK:
     def __init__(self, model: Transformer, tokenizer: Tokenizer):
         self.model = model
         self.tokenizer = tokenizer
