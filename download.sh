@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Copyright (c) Khulnasoft Platforms, Inc. and affiliates.
+# This software may be used and distributed according to the terms of the Llmk 2 Community License Agreement.
+
 set -e
 
 read -p "Enter the URL from email: " PRESIGNED_URL

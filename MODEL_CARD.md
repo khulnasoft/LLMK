@@ -1,8 +1,8 @@
 # **Model Details**
 
-Meta developed and released the Llmk 2 family of large language models (LLMs), a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llmk-2-Chat, are optimized for dialogue use cases. Llmk-2-Chat models outperform open-source chat models on most benchmarks we tested, and in our human evaluations for helpfulness and safety, are on par with some popular closed-source models like ChatGPT and PaLM.
+Khulnasoft developed and released the Llmk 2 family of large language models (LLMs), a collection of pretrained and fine-tuned generative text models ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llmk-2-Chat, are optimized for dialogue use cases. Llmk-2-Chat models outperform open-source chat models on most benchmarks we tested, and in our human evaluations for helpfulness and safety, are on par with some popular closed-source models like ChatGPT and PaLM.
 
-**Model Developers** Meta
+**Model Developers** Khulnasoft
 
 **Variations** Llmk 2 comes in a range of parameter sizes — 7B, 13B, and 70B — as well as pretrained and fine-tuned variations.
 
@@ -38,9 +38,9 @@ Llmk 2|*A new mix of publicly available online data*|70B|4k|&#10004;|2.0T|1.5 x 
 **Note: Developers may fine-tune Llmk 2 models for languages beyond English provided they comply with the Llmk 2 Community License and the Acceptable Use Policy.
 
 # **Hardware and Software**
-**Training Factors** We used custom training libraries, Meta's Research Super Cluster, and production clusters for pretraining. Fine-tuning, annotation, and evaluation were also performed on third-party cloud compute.
+**Training Factors** We used custom training libraries, Khulnasoft's Research Super Cluster, and production clusters for pretraining. Fine-tuning, annotation, and evaluation were also performed on third-party cloud compute.
 
-**Carbon Footprint** Pretraining utilized a cumulative 3.3M GPU hours of computation on hardware of type A100-80GB (TDP of 350-400W). Estimated total emissions were 539 tCO2eq, 100% of which were offset by Meta’s sustainability program.
+**Carbon Footprint** Pretraining utilized a cumulative 3.3M GPU hours of computation on hardware of type A100-80GB (TDP of 350-400W). Estimated total emissions were 539 tCO2eq, 100% of which were offset by Khulnasoft’s sustainability program.
 
 ||Time (GPU hours)|Power Consumption (W)|Carbon Emitted(tCO<sub>2</sub>eq)|
 |---|---|---|---|
@@ -49,10 +49,10 @@ Llmk 2|*A new mix of publicly available online data*|70B|4k|&#10004;|2.0T|1.5 x 
 |Llmk 2 70B|1720320|400|291.42|
 |Total|3311616||539.00|
 
-**CO<sub>2</sub> emissions during pretraining.** Time: total GPU time required for training each model. Power Consumption: peak power capacity per GPU device for the GPUs used adjusted for power usage efficiency. 100% of the emissions are directly offset by Meta's sustainability program, and because we are openly releasing these models, the pretraining costs do not need to be incurred by others.
+**CO<sub>2</sub> emissions during pretraining.** Time: total GPU time required for training each model. Power Consumption: peak power capacity per GPU device for the GPUs used adjusted for power usage efficiency. 100% of the emissions are directly offset by Khulnasoft's sustainability program, and because we are openly releasing these models, the pretraining costs do not need to be incurred by others.
 
 # **Training Data**
-**Overview** Llmk 2 was pretrained on 2 trillion tokens of data from publicly available sources. The fine-tuning data includes publicly available instruction datasets, as well as over one million new human-annotated examples. Neither the pretraining nor the fine-tuning datasets include Meta user data.
+**Overview** Llmk 2 was pretrained on 2 trillion tokens of data from publicly available sources. The fine-tuning data includes publicly available instruction datasets, as well as over one million new human-annotated examples. Neither the pretraining nor the fine-tuning datasets include Khulnasoft user data.
 
 **Data Freshness** The pretraining data has a cutoff of September 2022, but some tuning data is more recent, up to July 2023.
 
